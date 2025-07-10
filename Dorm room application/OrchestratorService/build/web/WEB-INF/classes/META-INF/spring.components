@@ -1,0 +1,5 @@
+distance.DistanceResource=javax.ws.rs.Path
+math.ApplicationConfig=javax.ws.rs.ApplicationPath
+math.MathOperations=javax.ws.rs.Path
+room.RoomResource=javax.ws.rs.Path
+weather.WeatherResource=javax.ws.rs.Path

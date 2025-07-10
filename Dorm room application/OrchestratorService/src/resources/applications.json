@@ -1,0 +1,2 @@
+[{"roomID":3,"name":"Ben","status":"pending","startDate":"2025-01-01","endDate":"2025-01-10","applicationID":1},{"roomID":4,"name":"John","status":"Cancelled","startDate":"2024-01-11","endDate":"2024-01-12","applicationID":2}],
+{"roomID":4,"name":"Ben Joshi","status":"pending","startDate":"2024-12-01","endDate":"2025-01-01","applicationID":3}
