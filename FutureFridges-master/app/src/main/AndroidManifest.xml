@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FutureFridges"
+        tools:targetApi="31">
+        <activity
+            android:name=".GeneralDashboardPage"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ViewHealthAndSafetyReports"
+            android:exported="false" />
+        <activity
+            android:name=".CreateHealthAndSafetyReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateHealthAndSafetyReport"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewEmployeesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageUserAccess"
+            android:exported="false" />
+        <activity
+            android:name=".MainPages.ManagersMainPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainPages.DeliveryPersonMainPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainPages.RegularChefMainPage"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.RegularChefMainPage"
+            android:exported="false"
+            android:label="@string/title_activity_regular_chef_main_page" />
+
+        <activity
+            android:name=".DeliverOrdersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OrderFoodActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainPages.HeadChefMainPages"
+            android:exported="false" />
+        <activity
+            android:name="MainPages.HeadChefMainPages"
+            android:exported="false"
+            android:label="@string/title_activity_head_chef_main_page"
+            android:theme="@style/Theme.FutureFridges.NoActionBar" />
+        <activity
+            android:name=".ManagersSignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".ManagersLoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryPersonSignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryPersonLoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".RegularChefSignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".RegularChefLoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".HeadChefSignUpPage"
+            android:exported="false" />
+        <activity
+            android:name=".HeadChefLoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

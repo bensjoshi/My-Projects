@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Title at the Top -->
+    <TextView
+        android:id="@+id/sign_up_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up Employees"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Grey Container for Buttons -->
+    <LinearLayout
+        android:id="@+id/sign_up_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E0E0E0"
+        android:padding="24dp"
+        android:layout_marginHorizontal="24dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/sign_up_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+        <!-- Sign Up Head Chef Button (Black) -->
+        <Button
+            android:id="@+id/sign_up_head_chef_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up Head Chef"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/black"
+            android:textSize="16sp"
+            android:paddingVertical="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Sign Up Regular Chef Button (White, Black Text) -->
+        <Button
+            android:id="@+id/sign_up_regular_chef_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up Regular Chef"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:paddingVertical="12dp"
+            android:backgroundTint="@android:color/white"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Sign Up Delivery Person Button (Black) -->
+        <Button
+            android:id="@+id/sign_up_delivery_person_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up Delivery Person"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/black"
+            android:textSize="16sp"
+            android:paddingVertical="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Sign Up Manager Button (White, Black Text) -->
+        <Button
+            android:id="@+id/sign_up_manager_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up Manager"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:paddingVertical="12dp"
+            android:backgroundTint="@android:color/white"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
