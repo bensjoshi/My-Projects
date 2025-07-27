@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Image -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_profile"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="User Profile Picture" />
+
+        <!-- Username -->
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Username"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Bio -->
+        <TextView
+            android:id="@+id/bioTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bio"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Location -->
+        <TextView
+            android:id="@+id/locationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textAlignment="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Instruments -->
+        <TextView
+            android:id="@+id/instrumentsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instruments"
+            android:textAlignment="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Genres -->
+        <TextView
+            android:id="@+id/genresTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genres"
+            android:textAlignment="center"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Followers Count -->
+        <TextView
+            android:id="@+id/followersTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Followers: 0"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Following Count -->
+        <TextView
+            android:id="@+id/followingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Following: 0"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:id="@+id/socialLinksContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/followButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow" />
+
+
+
+    </LinearLayout>
+</ScrollView>

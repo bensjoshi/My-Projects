@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="green_primary">#1DB954</color>
+    <color name="white_on_primary">#FFFFFF</color>
+
+    <!-- Secondary Colors -->
+    <color name="purple_secondary">#6200EE</color>
+    <color name="white_on_secondary">#FFFFFF</color>
+
+    <!-- Background / Surface -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="surface_light">#F5F5F5</color>
+    <color name="text_on_surface">#000000</color>
+
+    <!-- Error Colors -->
+    <color name="error_red">#B00020</color>
+    <color name="white_on_error">#FFFFFF</color>
+
+    <!-- Content/Text -->
+    <color name="text_dark">#212121</color>
+    <color name="primary_container">#E8F5E9</color>
+    <color name="text_on_primary_container">#1B5E20</color>
+
+    <!-- Accent -->
+    <color name="accent_pink">#FF4081</color>
+    <color name="white_on_accent">#FFFFFF</color>
+
+    <!-- Variants -->
+    <color name="green_primary_variant">#1AA34A</color>
+    <color name="surface_variant">#EEEEEE</color>
+    <color name="text_on_surface_variant">#333333</color>
+</resources>
