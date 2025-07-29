@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642592711528",
+    "project_id": "propertydatabase-9e8b9",
+    "storage_bucket": "propertydatabase-9e8b9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642592711528:android:0e577eb82ef2585ae36cdd",
+        "android_client_info": {
+          "package_name": "com.example.propertyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYs4dwSKMgoKybEaKO6Kc7INf9CRDRSv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

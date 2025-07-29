@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PropertyApp</string>
+    <string name="default_web_client_id">642592711528-v9vnpu7dmemmejqfpvvo5ms9a5h4q71p.apps.googleusercontent.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

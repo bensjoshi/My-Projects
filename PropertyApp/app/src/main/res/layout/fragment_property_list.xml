@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/md_theme_background">
+
+    <!-- Instruction Label -->
+    <TextView
+        android:id="@+id/instructionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto"
+        android:text="Welcome to the Property Management App!\n\n This app is designed for landlords to keep track of their property and tenant details.\n\n Get started by adding a property using the button in the bottom navigation bar or browse through the list of properties below."
+        android:textColor="@color/md_theme_onBackground"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:textAlignment="center" />
+
+    <!-- RecyclerView for Properties -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/propertyRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/instructionLabel"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

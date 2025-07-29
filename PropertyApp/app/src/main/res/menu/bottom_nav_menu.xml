@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Home Item with Material 3 Icon -->
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" /> <!-- Replace with the appropriate icon -->
+
+    <!-- Add Property Item with Material 3 Icon -->
+    <item
+        android:id="@+id/nav_add_property"
+        android:title="Add Property"
+        android:icon="@drawable/ic_add" /> <!-- Replace with the appropriate icon -->
+
+    <!-- Profile Item with Material 3 Icon -->
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person" /> <!-- Replace with the appropriate icon -->
+</menu>

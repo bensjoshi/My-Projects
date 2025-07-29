@@ -1,0 +1,43 @@
+<resources>
+    <!-- Black Color -->
+    <color name="black">#FF000000</color>
+
+    <!-- White Color -->
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Color (Dark Teal) -->
+    <color name="md_theme_primary">#00695C</color> <!-- Dark Teal -->
+
+    <!-- On Primary Color (White text on Primary) -->
+    <color name="md_theme_onPrimary">#FFFFFF</color> <!-- White Text on Primary -->
+
+    <!-- Background Color (Light Gray Background) -->
+    <color name="md_theme_background">#FAFAFA</color> <!-- Light Gray Background -->
+
+    <!-- On Background Color (Dark Gray Text on Background) -->
+    <color name="md_theme_onBackground">#212121</color> <!-- Dark Gray Text on Background -->
+
+    <!-- Surface Color (White Surface, used for cards, input fields) -->
+    <color name="md_theme_surface">#FFFFFF</color> <!-- White Surface -->
+
+    <!-- On Surface Color (Medium Dark Gray Text on Surface) -->
+    <color name="md_theme_onSurface">#424242</color> <!-- Medium Dark Gray Text on Surface -->
+
+    <!-- Error Color (Red for Errors) -->
+    <color name="md_theme_error">#B00020</color> <!-- Red for Errors -->
+
+    <!-- On Error Color (White Text on Error) -->
+    <color name="md_theme_onError">#FFFFFF</color> <!-- White Text on Error -->
+
+    <!-- Secondary Color (Bright Blue for Accents) -->
+    <color name="md_theme_secondary">#3B82F6</color> <!-- Bright Blue for Accents -->
+
+    <!-- On Secondary Color (White Text on Secondary) -->
+    <color name="md_theme_onSecondary">#FFFFFF</color> <!-- White Text on Secondary -->
+
+    <!-- Surface Variant Color (Light Gray Surface Variant) -->
+    <color name="md_theme_surfaceVariant">#E7E7E7</color> <!-- Light Gray Surface Variant -->
+
+    <!-- On Surface Variant Color (Black Text on Surface Variant) -->
+    <color name="md_theme_onSurfaceVariant">#000000</color> <!-- Black Text on Surface Variant -->
+</resources>
