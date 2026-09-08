@@ -1,7 +1,7 @@
 
 
 # My Portfolio
----
+# Hi there, I'm Ben Joshi. This is my software portfolio.
 
 ## Dorm Room Application
 **A distributed room-booking system with a REST API backend and a standalone console client**
